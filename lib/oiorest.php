@@ -33,6 +33,11 @@ Class Oiorest_Adresser extends Oiorest {
   public $parameters = array('postnr','kommunekode','regionsnr','vejnavn','husnr','vejkode','maxantal');
 }
 
+Class Oiorest_Antenner extends Oiorest {
+  public $url = 'http://geo.oiorest.dk/antenner.json';
+  public $parameters = array('postnr','kommunekode','tjenesteart','teknologi','maxantal');
+}
+
 Class Oiorest_Ejerlav extends Oiorest {
   public $url = 'http://geo.oiorest.dk/ejerlav.json';
   public $parameters = array('ejelavsnavn','ejerlavskode','kommunekode','regionsnr','maxantal');
