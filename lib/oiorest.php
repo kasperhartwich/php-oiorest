@@ -28,6 +28,21 @@ Class Oiorest {
 
 }
 
+Class Oiorest_Adresser extends Oiorest {
+  public $url = 'http://geo.oiorest.dk/adresser.json';
+  public $parameters = array('postnr','kommunekode','regionsnr','vejnavn','husnr','vejkode','maxantal');
+}
+
+Class Oiorest_Ejerlav extends Oiorest {
+  public $url = 'http://geo.oiorest.dk/ejerlav.json';
+  public $parameters = array('ejelavsnavn','ejerlavskode','kommunekode','regionsnr','maxantal');
+}
+
+Class Oiorest_Kommuner extends Oiorest {
+  public $url = 'http://geo.oiorest.dk/kommuner.json';
+  public $parameters = array('q','regionsnr');
+}
+
 Class Oiorest_Vejnavne extends Oiorest {
   public $url = 'http://geo.oiorest.dk/vejnavne.json';
   public $parameters = array('postnr','frapostnr','tilpostnr','kommunekode','vejnavn','vejkode','maxantal');
