@@ -9,7 +9,7 @@
         {
             "name": "Kasper Hartwich",
             "email": "kasperhartwich@gmail.com",
-            "homepage": "http://kasperhartwich.dk",
+            "homepage": "http://kasperhartwich.dk"
         }
     ],
     "autoload": {
