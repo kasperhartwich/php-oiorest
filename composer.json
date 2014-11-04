@@ -1,0 +1,18 @@
+{
+    "name": "kasperh/php-oiorest",
+    "type": "library",
+    "description": "Get information from oiorest.",
+    "keywords": ["oiorest", "oio", "vejnavne"],
+    "homepage": "http://github.com/kasperhartwich/php-oiorest",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Kasper Hartwich",
+            "email": "kasperhartwich@gmail.com",
+            "homepage": "http://kasperhartwich.dk",
+        }
+    ],
+    "autoload": {
+        "classmap": ["lib/"]
+    }
+}
