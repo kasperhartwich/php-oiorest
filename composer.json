@@ -1,5 +1,5 @@
 {
-    "name": "kasperh/php-oiorest",
+    "name": "kasperhartwich/php-oiorest",
     "type": "library",
     "description": "Get information from oiorest.",
     "keywords": ["oiorest", "oio", "vejnavne"],
